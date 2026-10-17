@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <form action="process.php" method="post">
+        Nama: <input type="text" name="nama"><br>
+        NIM: <input type="text" name="nim"><br>
+        Email: <input type="text" name="email"><br>
+        Jenis Kelamin:
+                            <select name="jenis_kelamin">
+                                <option value="Laki-laki">Laki-laki</option>
+                                <option value="Perempuan">Perempuan</option>
+                                <option value="Tidak Ingin Mengungkapkan">Tidak Ingin Mengungkapkan</option>
+                            </select><br>
+        Hobi:
+        <input type="checkbox" name="hobi[]" value="Ngaji"> Ngaji
+        <input type="checkbox" name="hobi[]" value="Membaca"> Membaca
+        <input type="checkbox" name="hobi[]" value="Ngopi"> Ngopi<br>
+        jurusan:
+        <select name="jurusan">
+            <option value="Teknologi Informasi">Teknologi Informasi</option>
+            <option value="Sistem Informasi">Sistem Informasi</option>
+            <option value="Teknik Komputer">Teknik Komputer</option>
+        </select><br>
+        Alamat: <textarea name="alamat"></textarea><br>
+        <button type="submit">Kirim</button>
+        <button type="reset">Reset</button>
+    </form>             
+</html>
+<table border="1">
+    <caption>Daftar Nilai</caption>
+    <tr>
+        <th>No</th>
+        <th>Nama</th>
+        <th colspan="2">Nilai</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Bubi</td>
+        <td>90</td>
+        <td>A</td>
+        <td>Lulus</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Yoga Tamaaaa</td>
+        <td>30</td>
+        <td>C</td>
+        <td>Tidak Lulus</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Sayid</td>
+        <td>100</td>
+        <td>A+</td>
+        <td>Lulus</td>
+    </tr>
